@@ -37,6 +37,18 @@
 
 压缩包名称为：`2020-03-02—2020-03-06ISE组21级周报`。
 
+## 使用Markdown撰写
+
+安装[Pandoc](https://github.com/jgm/pandoc)实现Markdown转换为word。
+
+待Pandoc使用的Word模板为`Template`中的`custom-reference.docx`，其中`template.md`为Markdown的模板。
+
+写完了md后，使用如下命令生成word文档
+
+```sh
+pandoc input.md --reference-doc=custom-reference.docx -o output.docx
+```
+
 ## 顺序
 
 + 佘嘉洛
