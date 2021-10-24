@@ -19,7 +19,7 @@ date: '2021年10月18日-2021年10月22日'
 
 ## 1.3 看论文——尚超
 
-本周尚超看了论文Graph-based Root Cause Analysis for Service-Oriented and Microservice Architectures，然后大体了解了微服务监控以及根因分析的闭环控制逻辑。
+本周尚超继续学习kubernetes、istio相关知识。学习了微服务监控的若干手段。
 
 # 2 工程进展
 
@@ -47,4 +47,4 @@ date: '2021年10月18日-2021年10月22日'
 
 * 佘嘉洛同学继续跟进631项目
 * 刘雨晴同学继续跟进631项目
-* 尚超继续根基631项目
+* 尚超继续跟进631项目
