@@ -19,7 +19,7 @@ date: '2021年10月25日-2021年10月29日'
 
 本周尚超学习了服务网格client-go的基本原理。了解了client-go中的reflector、informer，以及list、watch等和k8s状态保持同步的机制。学习了grpc，为后续631所嵌入式微服务服务治理开发打下基础。
 
-[尚超-服务网格学习笔记](2. istio client-go原理—尚超.docx)
+[尚超-服务网格学习笔记](2.istio.client-go原理—尚超.docx)
 
 ## 1.3 自适应与微服务论文阅读——佘嘉洛
 
