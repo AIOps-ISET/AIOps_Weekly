@@ -1,0 +1,11 @@
+name: New Weekly
+on:
+  schedule:
+    - cron: '0 8 * * 1'
+jobs:
+  new_weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run new weekly script
+        run: ./.github/scripts/new_weekly.sh
+        shell: bash
