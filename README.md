@@ -1,6 +1,6 @@
-# ISE_Weekly
+# AIOps_Weekly
 
-本仓库用于ISE组的周报管理。
+本仓库用于AIOps组的周报管理。
 
 ## GitHub Action的使用
 
