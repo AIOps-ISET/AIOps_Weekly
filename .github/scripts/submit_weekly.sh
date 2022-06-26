@@ -48,10 +48,10 @@ outputFileName="$directoryRootName/$directoryName/0.$directoryName.docx"
 
 cd "$directoryRootName/$directoryName"
 
-/bin/zip "$directoryName"ISE周报.zip "${attachmentToAddToGit[@]}" "0.$directoryName.docx"
+/bin/zip "$directoryName"AIOps周报.zip "${attachmentToAddToGit[@]}" "0.$directoryName.docx"
 
 git config user.name 'github-actions[bot]'
 git config user.email 'github-actions[bot]@users.noreply.github.com'
-git add "$directoryName"ISE周报.zip
+git add "$directoryName"AIOps周报.zip
 git commit -m '[automated commit] Submit weekly'
 git push
