@@ -34,6 +34,11 @@ date: '2022年06月27日-2022年07月01日'
 
 [佘嘉洛+微服务资源管理论文阅读](佘嘉洛+微服务资源管理论文阅读.docx)
 
+## 1.6 配置案例系统环境——李亚晓
+
+本周李亚晓同学对《An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud & Edge Systems》进行阅读，选定案例系统并配置了案例
+系统所需的环境。
+
 # 2 工程进展
 
 # 3 项目进展
