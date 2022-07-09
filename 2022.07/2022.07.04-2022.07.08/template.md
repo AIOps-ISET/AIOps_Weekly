@@ -26,6 +26,14 @@ date: '2022年07月04日-2022年07月08日'
 
 本科阶段毕业设计制作的是Springboot框架下的文档管理系统，通过毕业设计使我对与Springboot有了一个了解，于是我选择先学习Springboot以及Springcloud相关的知识。本周主要是了解微服务发展过程和作用以及对于Springcloud的特性和对应的组件进行一个了解并部分部署。了解Eureka、Hystrix、Config、Zuul、Springcloud sleuth、zipkin这些组件的作用和相互之间的关系并进行图形和文字总结。在电脑上部署了Eureka，hystrix
 
+[惠明轩+学习Spring_Cloud框架](惠明轩+学习Spring_Cloud框架.docx)
+
+## 1.4 搭建案例系统——李亚晓
+
+本周李亚晓同学完成案例系统的搭建，撰写了容器调度部分文字，以及青年基金的部分文字。
+
+[李亚晓+案例系统搭建](李亚晓+案例系统搭建.docx)
+
 # 2 工程进展
 
 ## 2.1 青岛旅游网站项目——刘雨晴、尚超
