@@ -8,7 +8,8 @@ jobs:
       - name: Install the dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install zip wget
+          sudo apt-get install zip wget python3 python3-pip
+          sudo pip3 install requests
       - name: Install the pandoc
         run: |
           wget https://github.com/jgm/pandoc/releases/download/2.17.1.1/pandoc-2.17.1.1-1-amd64.deb
@@ -16,7 +17,7 @@ jobs:
       - name: Run submit weekly script
         run: ./.github/scripts/submit_weekly.sh
         shell: bash
-      - name: Submit the email to big boss and little boss
+      - name: Send the email to big boss and little boss
         # see https://github.com/dawidd6/action-send-mail
         uses: dawidd6/action-send-mail@v3
         with:
@@ -34,3 +35,8 @@ jobs:
           convert_markdown: true
           attachments: ./${{env.WEEKLY_PATH}}/${{env.WEEKLY_NAME}}
           priority: normal
+      - name: Send the weekly zip to WeiXinWork
+        run: python3 ./.github/scripts/weixin_upload.py
+        env:
+          WEIXIN_ROBOT: ${{secrets.WEIXIN_ROBOT}}
+          ATTACHMENT_NAME: ./${{env.WEEKLY_PATH}}/${{env.WEEKLY_NAME}}
