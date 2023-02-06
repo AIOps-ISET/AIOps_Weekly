@@ -1,0 +1,20 @@
+name: New Weekly
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * 1'
+jobs:
+  new_weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run new weekly script
+        run: ./.github/scripts/new_weekly.sh
+        shell: bash
+      - name: Git commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m '[automated commit] Add new weekly'
+          git push
