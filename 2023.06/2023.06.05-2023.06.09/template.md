@@ -31,9 +31,14 @@ date: '2023年06月05日-2023年06月09日'
 [胡宽涛linux笔记](https://github.com/AIOps-ISET/AIOps_Weekly/blob/master/2023.06/2023.06.05-2023.06.09/%E8%83%A1%E5%AE%BD%E6%B6%9Blinux%E7%AC%94%E8%AE%B0.docx)
 
 ## 1.5 学习k8s和Spring cloud——刘浩
+
 本周刘浩同学在之前部署的案例系统基础上，阅读k8s官方文档加强了对k8s的理解。同时学习了Spring cloud服务管理组件的原理，特性和使用。
 
-[刘浩k8s&&Spring cloud笔记](2023.06/2023.06.05-2023.06.09/刘浩-k8s&&Spring cloud学习与实践笔记.pdf)
+[刘浩k8s&&Spring cloud笔记](https://github.com/AIOps-ISET/AIOps_Weekly/blob/master/2023.06/2023.06.05-2023.06.09/%E5%88%98%E6%B5%A9-k8s%26%26Spring%20cloud%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf)
+
+## 1.6 备战期末考试——李豪，高天元与周伯林
+
+本周和下周李豪，高天元和周伯林三位同学要进行期末考试，因此暂时没有学习上的推进工作。
 
 # 2 工程进展
 
