@@ -27,8 +27,8 @@ date: '2023年06月05日-2023年06月09日'
 ## 1.4 学习Linux和k8s——胡宽涛
 本周胡宽涛同学在之前已经部署过案例系统的基础上，阅读《k8s in action》加强对k8s的理解，并阅读《Linux命令行与shell脚本编程大全》学习linux。
 
-[胡宽涛+k8s笔记](https://github.com/AIOps-ISET/AIOps_Weekly/blob/master/2023.06/2023.06.05-2023.06.09/%E3%80%8Ak8s%20in%20Action%E3%80%8B%E7%AC%94%E8%AE%B0.md)
-[胡宽涛+linux笔记](https://github.com/AIOps-ISET/AIOps_Weekly/blob/master/2023.06/2023.06.05-2023.06.09/%E3%80%8ALinux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8Eshell%E8%84%9A%E6%9C%AC%E7%BC%96%E7%A8%8B%E5%A4%A7%E5%85%A8%E3%80%8B%E7%AC%94%E8%AE%B0.md)
+[胡宽涛k8s笔记](https://github.com/AIOps-ISET/AIOps_Weekly/blob/master/2023.06/2023.06.05-2023.06.09/%E8%83%A1%E5%AE%BD%E6%B6%9Bk8s%E7%AC%94%E8%AE%B0.docx)
+[胡宽涛linux笔记](https://github.com/AIOps-ISET/AIOps_Weekly/blob/master/2023.06/2023.06.05-2023.06.09/%E8%83%A1%E5%AE%BD%E6%B6%9Blinux%E7%AC%94%E8%AE%B0.docx)
 # 2 工程进展
 
 ## 2.1 青岛旅游网站项目——刘雨晴、尚超
