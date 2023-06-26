@@ -6,35 +6,8 @@
 
 目前，本仓库存在两个GitHub Action用于使得周报的流程更加自动化。
 
-### New Weekly Action
-
-`New Weekly`在每周一下午4点自动创建周报的模板，也可以通过手动进行触发，但是一般不触发。其核心的逻辑十分简单，首先通过`date`获取星期一的日期,并获取星期五的日期,并构建`directoryName`变量. 实现的逻辑比较简单,就是通过`sed`进行修改。
-
-目前唯一的问题在于周数的确认无法通过比较好的方式, 目前采用的方式是通过读取`weekly.log`文件的值. 在放假的时候,按照现在的逻辑仍然会创建新的文件,增加`weekly.log`的值,这种逻辑是不对的,这能后期通过人工进行修改,但是只需要在新学期对其进行一次修改,然后均可以实现自动化.目前只能采取这种妥协的方式.
-
-### Submit Weekly Action
-
-`Submit Weekly`实现自动编号（附件与内容），自动通过`pandoc`将markdown转化为word，然后生成压缩包，自动地将周报发送给相关的老师的邮箱，提交后，下载上传至QQ群中即可。
-
-首先通过`submit_weekly.sh`通过`sed`结合正则,选择出`[]()`的内容,通过shell script对其编号.然后创建`template_copy.md`修改其内容。同时,github action将会安装`zip`和`pandoc`.通过`pandoc`自动地将md转化为docx,然后通过`zip`直接压缩.然后commit压缩文件。
-
-遗憾地是,shell脚本采用了比较丑陋的方式,即通过日期进入这一周的周报由于采取utc,而国内位于utc 8+,故截止时间为星期一8点手动执行github action。
-
-同时，`Submit Weekly`会发送生成的周报至老师的邮箱，故维持了五个Secret变量：
-
-+ `MAIL_USERNAME`：实验室的邮箱名。
-+ `MAIL_PASSWORD`：生成的邮件应用密码。
-+ `BIG_BOSS_EMAIL_ADDRESS`
-+ `LITTLE_BOSS_EMAIL_ADDRESS`
-+ `SELF_MAIL_ADDRESS`：自己的邮箱，用于检查邮件是否正常发送，且备份。
-
-注意，如果你要修改发送的邮件的内容，请修改`Template/email.md`文件。
-
-近期，实验室采用了企业微信作为工作的群。企业微信提供了群机器人可以自动上传文件，故增加了一个`py`脚本实现上传文件的自动化，并在仓库中增加了一个Secret变量：
-
-+ `WEIXIN_ROBOT`：微信群机器人的key。
-
-其基本的逻辑很简单，请参考腾讯的[教程](https://developer.work.weixin.qq.com/document/path/91770)
++ [New Weekly Action](./.github/docs/new_weekly.md)
++ [Submit Weekly Action](./.github/docs/submit_weekly.md)
 
 ## 周报的编写
 
