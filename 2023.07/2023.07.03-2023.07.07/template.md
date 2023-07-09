@@ -24,6 +24,10 @@ date: '2023年07月03日-2023年07月07日'
 ## 1.3 学习K8s部署与基本操作，完成案例系统的部署——李豪
 本周李豪同学学习了K8s的相关操作，使用minikube完成单机集群部署，并成功运行案例系统SockShop。
 
+## 1.4 学习k8s in action——周柏林
+本周周柏林同学学习了k8s中不同组件及其适用场景 [学习视频](https://www.bilibili.com/video/BV1cd4y1J7qE/?p=63&share_source=copy_web&vd_source=98078409e4d356d7d0145f10a813a027)
+;利用docker-compose搭建[go微服务项目](https://github.com/nivin-studio/gonivinck)
+
 # 2 工程进展
 
 ## 2.1 631项目——王晨屹
@@ -45,6 +49,7 @@ date: '2023年07月03日-2023年07月07日'
 + 庄慧盈同学继续推进论文工作
 + 李亚晓同学继续阅读论文，推进论文工作
 + 李豪同学阅读相关入门论文，了解大致背景
++ 周柏林同学继续学习k8s
 
 ## 5.2 工程方面
 
