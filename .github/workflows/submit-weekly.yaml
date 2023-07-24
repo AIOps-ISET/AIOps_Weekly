@@ -30,7 +30,7 @@ jobs:
           from: ${{secrets.MAIL_USERNAME}}
           secure: true
           html_body: file://./Template/email.md
-          cc: ${{secrets.LITTLE_BOSS_EMAIL_ADDRESS}}, ${{secrets.SELF_MAIL_ADDRESS}}
+          cc: ${{secrets.LITTLE_BOSS_EMAIL_ADDRESS}}
           ignore_cert: true
           convert_markdown: true
           attachments: ./${{env.WEEKLY_PATH}}/${{env.WEEKLY_NAME}}
